@@ -7,4 +7,45 @@ body {
   background-color: #f9f9f9;
   margin: 0;
   padding: 0;
+}
+
+.navbar {
+  background-color: #723694;
+  padding: 1rem 2rem;
+}
+.navbar .nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  font-weight: 400;
+}
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+.hero-section {
+  background-color: rgb(165.2574257426, 104.0693069307, 199.9306930693);
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero-section p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+.hero-section .cta-button {
+  background-color: rgb(85.2178217822, 40.3663366337, 110.6336633663);
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 400;
+}
+.hero-section .cta-button:hover {
+  background-color: rgb(70.8267326733, 33.5495049505, 91.9504950495);
 }/*# sourceMappingURL=styles.css.map */

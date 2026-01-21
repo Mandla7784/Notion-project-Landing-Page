@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$primary-color: #723694;
+$secondary-color: #2d2031;
+$font-stack: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-size-base: 16px;
+$line-height-base: 1.5;
+$font-weight-normal: 400;
+
+body {
+  font-family: $font-stack;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  color: $secondary-color;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}

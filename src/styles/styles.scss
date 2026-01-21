@@ -250,6 +250,25 @@ body {
   }
 }
 
+.about{
+    padding: 5rem 0;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
 
+.about h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease-out;
+}
 
-
+.about p {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+    animation: fadeInUp 1s ease-out 0.2s both;
+}

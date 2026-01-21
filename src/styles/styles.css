@@ -48,4 +48,18 @@ body {
 }
 .hero-section .cta-button:hover {
   background-color: rgb(70.8267326733, 33.5495049505, 91.9504950495);
+}
+.hero-section .right {
+  float: right;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.hero-section .left {
+  float: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }/*# sourceMappingURL=styles.css.map */

@@ -62,4 +62,26 @@ body {
           background-color: darken($primary-color, 15%);
         }
       }
+        .right{
+            float: right;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            }
+
+
+        .left{
+            
+            float: left;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            &img{
+                width: 400px;
+                height: auto;
+                margin-right: 2rem;
+            
+            }
     }

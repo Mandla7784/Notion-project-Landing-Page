@@ -1,0 +1,15 @@
+{
+  "name": "notion-landing-page",
+  "version": "1.0.0",
+  "description": "Landing page showcasing HTML and CSS skills",
+  "scripts": {
+    "build": "npm run build:css && npm run build:html",
+    "build:css": "sass src/styles/styles.scss dist/css/styles.css --style compressed",
+    "build:html": "cp src/index.html dist/ && cp -r src/assets dist/",
+    "watch": "sass --watch src/styles/styles.scss:dist/css/styles.css",
+    "dev": "npm run build && npm run watch"
+  },
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}
